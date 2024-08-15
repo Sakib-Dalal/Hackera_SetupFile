@@ -1,0 +1,22 @@
+# run:- pip install -r requirements.txt
+# to generate requirements.txt:- pip freeze > requirements.txt
+
+# AI and ML 
+huggingface[cli]
+transformers
+datasets
+tokenizers
+torch
+scikit-learn
+pandas
+accelerate
+diffusers
+numpy
+evaluate
+
+# App
+Flask
+Flask-SQLAlchemy
+Flask-WTF
+gunicorn
+requests
